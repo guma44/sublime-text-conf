@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+@property
+def ${1:name}(self):
+	"""TODO"""
+	${2:return self._$1}
+
+@${1:name}.setter
+def ${1:name}(self, value):
+	${3:self._$1 = value}$0
+
+]]></content>
+	<tabTrigger>rwprop</tabTrigger>
+	<scope>source.python</scope>
+	<description>RG Read write property</description>
+</snippet>

@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+def __eq__(self, other):
+	${1:pass}
+
+def __ne__(self, other):
+	${2:pass}
+
+def __lt__(self, other):
+	${3:pass}
+
+def __le__(self, other):
+	${4:pass}
+
+def __gt__(self, other):
+	${5:pass}
+
+def __ge__(self, other):
+	${6:pass}
+
+def __cmp__(self, other):
+	${7:pass}
+
+]]></content>
+	<tabTrigger>cmp</tabTrigger>
+	<scope>source.python</scope>
+	<description>RG methods implementing rich comparison</description>
+</snippet>

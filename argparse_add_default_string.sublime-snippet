@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+parser.add_argument("-${1/^(.)(.+)/(?1$1:)/g}",
+					"--$1",
+					dest="${1/-/_/g}",
+					default=${2:None},
+					help="$3. Defaults to ${2/"//g}.")
+]]></content>
+	<tabTrigger>addsd</tabTrigger>
+	<scope>source.python</scope>
+	<description>RG Add string with default argument to parser</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+@property
+def ${1:name}(self):
+	${2:return self._$1}$0
+
+]]></content>
+	<tabTrigger>roprop</tabTrigger>
+	<scope>source.python</scope>
+	<description>RG Read Only Property</description>
+</snippet>
