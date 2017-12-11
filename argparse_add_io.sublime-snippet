@@ -1,15 +1,17 @@
 <snippet>
 	<content><![CDATA[
-parser.add_argument("-i",
-					"--input",
-					dest="input",
-					default=sys.stdin,
-					help="Input file in $1 format. Defaults to sys.stdin.")
-parser.add_argument("-o",
-					"--output",
-					dest="output",
-					default=sys.stdout,
-					help="Output file in $2 format. Defaults to sys.stdout.")
+parser.add_argument(
+	"-i",
+	"--input",
+	dest="input",
+	default=sys.stdin,
+	help=("Input file in $1 format. Defaults to sys.stdin."))
+parser.add_argument(
+	"-o",
+	"--output",
+	dest="output",
+	default=sys.stdout,
+	help=("Output file in $2 format. Defaults to sys.stdout."))
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>inout</tabTrigger>

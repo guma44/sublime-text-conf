@@ -1,11 +1,12 @@
 <snippet>
 	<content><![CDATA[
-parser.add_argument("-${1/^(.)(.+)/(?1$1:)/g}",
-					"--$1",
-					dest="${1/-/_/g}",
-					type=int,
-					required=True,
-					help="$3")
+parser.add_argument(
+	"-${1/^(.)(.+)/(?1$1:)/g}",
+	"--$1",
+	dest="${1/-/_/g}",
+	type=int,
+	required=True,
+	help=("$3"))
 ]]></content>
 	<tabTrigger>addi</tabTrigger>
 	<scope>source.python</scope>
