@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Crontab Syntax",
+		"DocBlockr_Python",
+		"FindKeyConflicts",
+		"GitGutter",
+		"MarkdownEditing",
+		"MarkdownPreview",
+		"Package Control",
+		"ProjectManager",
+		"Seti_UI",
+		"SideBarEnhancements"
+	]
+}

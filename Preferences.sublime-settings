@@ -1,0 +1,15 @@
+{
+	"close_windows_when_empty": false,
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Vintage"
+	],
+	"rulers":
+	[
+		80,
+		120
+	],
+	"theme": "Seti.sublime-theme"
+}
