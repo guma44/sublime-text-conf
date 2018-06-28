@@ -1,0 +1,12 @@
+{
+	"mccabe_threshold": 7,
+	"anaconda_linter_mark_style": "stippled_underline",
+	"anaconda_gutter_theme": "hard",
+	"pep257": true,
+	"pep8_ignore":
+	    [
+	        "E309",
+	        "E266"
+	    ]
+
+}
